@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayuda para Abuelo - Tailscale</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; padding: 20px; background: #f0f0f0; font-size: 24px; }
+    h1 { color: #333; }
+    button { font-size: 32px; padding: 20px 40px; margin: 20px; width: 80%; border: none; border-radius: 10px; color: white; cursor: pointer; }
+    .btn1 { background: #4CAF50; } /* Verde */
+    .btn2 { background: #2196F3; } /* Azul */
+    .btn3 { background: #FF9800; } /* Naranja */
+    .clave { background: yellow; padding: 20px; margin: 30px auto; max-width: 90%; border-radius: 10px; font-weight: bold; word-break: break-all; }
+    p { margin: 30px 0; font-size: 22px; }
+  </style>
+</head>
+<body>
+  <h1>¡Hola abuelo!</h1>
+  <p>Pulsa los botones en orden 1 → 2 → 3</p>
+
+  <button class="btn1" onclick="window.location='market://details?id=com.tailscale.ipn'">1. INSTALAR Tailscale</button>
+
+  <div class="clave">
+    Pega esta clave cuando te pida:<br>
+    tskey-auth-kZEmLa9feH11CNTRL-DznUSCbc6FYukgaE3Wz2FYsLLNYKT6wTA
+  </div>
+
+  <button class="btn2" onclick="window.location='tailscale://'">2. ABRIR Tailscale</button>
+
+  <button class="btn3" onclick="window.location='android.settings.SETTINGS'">3. IR A AJUSTES (luego busca Opciones de desarrollador)</button>
+
+  <p>Cuando termines los 3 pasos, cierra esta app y dime por WhatsApp: "Ya está listo". ¡Gracias!</p>
+</body>
+</html>
